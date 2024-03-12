@@ -11,5 +11,5 @@ test("renders subheading inside side menu react link", () => {
 test("renders side menu and cards page", () => {
   render(<App />);
   expect(screen.getByTestId("side-bar")).toBeInTheDocument();
-  expect(screen.getByTestId("cards-page")).toBeInTheDocument();
+  expect(screen.getByTestId("card-page-container")).toBeInTheDocument();
 });

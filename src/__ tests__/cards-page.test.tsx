@@ -6,7 +6,7 @@ import { act } from "react-dom/test-utils";
 describe("CardsPage", () => {
   test("renders the component properly", () => {
     render(<CardsPage />);
-    expect(screen.getByTestId("cards-page")).toBeInTheDocument();
+    expect(screen.getByTestId("card-page-container")).toBeInTheDocument();
   });
 
   test("displays the correct number of tabs", () => {

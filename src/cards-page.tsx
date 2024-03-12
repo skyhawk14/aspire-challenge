@@ -76,7 +76,7 @@ export default function CardsPage() {
   }, [cardName]);
 
   return (
-    <div data-testid="cards-page">
+    <>
       <Box
         sx={(theme) => ({
           width: "100%",
@@ -86,6 +86,7 @@ export default function CardsPage() {
             height: "100%",
           },
         })}
+        data-testid="card-page-container"
         className="card-page-container lg:pt-16 lg:pl-16 bg-[#0C365A] lg:bg-white sm:text-white"
       >
         <div className="text-left font-light text-md px-4 lg:px-0 lg:text-black pt-2 mb-2 lg:mt-0 lg:mb-2 text-white flex justify-between">
@@ -201,6 +202,6 @@ export default function CardsPage() {
           </div>
         </Box>
       </Modal>
-    </div>
+    </>
   );
 }
