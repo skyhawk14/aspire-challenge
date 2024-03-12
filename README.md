@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+### `About`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+In this project I have leverage localStorage for storing the data related to card.
 
 In the project directory, you can run:
 
@@ -26,5 +24,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### `npm test`
+
+To run the unit test
+
+### `npm test -- --coverage`
+
+To run test with coverage
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

@@ -76,7 +76,7 @@ export default function CardsPage() {
   }, [cardName]);
 
   return (
-    <>
+    <div data-testid="cards-page">
       <Box
         sx={(theme) => ({
           width: "100%",
@@ -178,7 +178,7 @@ export default function CardsPage() {
             p: 4,
           }}
         >
-          <div>
+          <div data-testid="add-new-card-modal">
             <h1 className="text-[25px] font-bold">Create new card</h1>
             <div>
               <input
@@ -201,6 +201,6 @@ export default function CardsPage() {
           </div>
         </Box>
       </Modal>
-    </>
+    </div>
   );
 }

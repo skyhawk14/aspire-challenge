@@ -19,7 +19,10 @@ export const DebitCard = ({
 
   return (
     <>
-      <div className="text-right text-sm mb-2 pr-1 text-[#01D167] flex justify-end">
+      <div
+        className="text-right text-sm mb-2 pr-1 text-[#01D167] flex justify-end"
+        data-testid="debit-card"
+      >
         <img
           src={ShowCardIcon}
           alt="Show card number"
@@ -29,6 +32,7 @@ export const DebitCard = ({
         />
         <button
           className="cursor-pointer"
+          data-testid="show-card-number"
           onClick={() => setShowCardNumber(!showCardNumber)}
         >
           {showCardNumber ? "Hide card number" : "Show card number"}
