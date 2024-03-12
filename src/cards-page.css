@@ -1,0 +1,39 @@
+.card-page-container {
+  & .MuiTabs-indicator {
+    background-color: #23cefd;
+  }
+
+  & button.MuiTab-root {
+    font-size: 12px;
+    padding: 0;
+    min-height: 30px;
+    height: 30px;
+    margin-right: 20px;
+    text-transform: none;
+  }
+
+  & .MuiTabs-root {
+    min-height: 30px;
+    height: 30px;
+  }
+
+  & .MuiTab-textColorPrimary {
+    color: #b3b3b3;
+  }
+
+  & button.MuiTab-root.Mui-selected {
+    color: black !important;
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 1023px) {
+    & button.MuiTab-root.Mui-selected {
+      color: white !important;
+      opacity: 1;
+    }
+  }
+
+  & .MuiTabs-flexContainer {
+    min-width: auto;
+  }
+}
